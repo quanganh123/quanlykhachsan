@@ -1,0 +1,15 @@
+.table{
+    border-radius: 25px;
+    background-color: rgba(203, 220, 247, 1);
+}
+.col-sm-2{
+    height: 730px; 
+    background-color: rgba(132, 173, 234, 1); 
+    left: 15px;
+}
+.menu{
+    background-color: rgb(229, 232, 237); 
+}
+.sodem{
+    right: 50px;
+}

@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(108, 212, 228);
+}
+.titledangnhap{
+    margin-top:180px;
+    color: rgba(154, 0, 121, 0.995);
+    text-align: center;
+}
+.fromdangnhap{
+    width: 300px; 
+    margin-left:140px;
+}
+.titledangky{
+    margin-top:200px;
+    color: rgba(154, 0, 121, 0.995);
+    text-align: center;
+}
+.fromdangky{
+    width: 300px; 
+    margin-left:140px;
+}
+.namefrom{
+    color: rgb(97, 0, 119);
+    text-align: center;
+}
