@@ -9,7 +9,7 @@ if(isset($_POST['btn-reg']))
     $password=$_POST['password'];
     if(!empty($fullname)&&!empty($idadmin)&&!empty($role)&&!empty($user_name)&&!empty($password))
     {
-        $sql = "INSERT INTO `quanlythuvien` (`HoVaTen`,`MaAdmin`,`VaiTro`,`User_name`,`Password`)
+        $sql = "INSERT INTO `quanlykhachsan` (`HoVaTen`,`MaAdmin`,`VaiTro`,`User_name`,`Password`)
         VALUES('$fullname', '$idadmin', '$role', '$user_name', '$password')";
         if($conn->query($sql)===TRUE)
         {
@@ -35,7 +35,7 @@ if(isset($_POST['btn-reg']))
     <title>Quản Lý Thư Viện</title>
 </head>
 <body>
-    <form id="from_reg" class="bg-light p-4 my-3" action="/code/QLthuvien2/index.php" method="post">
+    <form id="from_reg" class="bg-light p-4 my-3" action="/code/QLkhachsan/index.php" method="post">
     <br><input type="submit" class="btn btn-outline-info offset-3 col-6" name="btn-reg" value="Quay Lại Trang Chính">
     </form>
 </body>
