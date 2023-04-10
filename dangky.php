@@ -11,7 +11,7 @@
 <body>
 <div class="row">
         <div class="titledangky col-sm-6">
-            <h1 class="pt-5 my-5">Quản Lý Thư Viện</h1>
+            <h1 class="pt-5 my-5">Quản Lý Thư Viện test123</h1>
         </div>
         <div class="fromdangky pt-5 my-5">
             <form action="/code/QLthuvien2/AddnewAdmin.php" method="post">
