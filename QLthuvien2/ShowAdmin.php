@@ -44,7 +44,6 @@
                 <div class="input-group mb-3 col-sm-3">
                     <input type="text" class="form-control" id="myInput" placeholder="Search">
                 </div>
-                <h4 class="">Tổng Số:<?php echo $total_records?></h4> 
                 <table class="table table-striped table-hover table-sm text-center">
                     <thead>
                         <tr>
